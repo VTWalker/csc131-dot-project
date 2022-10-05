@@ -3,7 +3,7 @@ import React from "react";
 import "./SampleText.css";
 
 function SampleText() {
-  return <div className="homepage-text">Whoa</div>;
+  return <div className="homepage-text">Agent States</div>;
 }
 
 // Component files must have default exports like below in order to be imported/used in other files

@@ -1,4 +1,5 @@
 .homepage-text {
-    font: 700;
-    color: blue;
+    font: bold;
+    color: black;
+    text-decoration: underline;
 }
