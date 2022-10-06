@@ -15,12 +15,12 @@ function App() {
       <div className="homepage-body">
         <SampleText />
         <div className="dot-container">
+          <div className="sample-dot2" />
           <div className="sample-dot" />
+          <div className="sample-dot2" />
           <div className="sample-dot" />
-          <div className="sample-dot" />
-          <div className="sample-dot" />
-          <div className="sample-dot" />
-          <div className="sample-dot" />
+          <div className="sample-dot2" />
+          <div className="sample-dot2" />
           <div className="sample-dot" />
         </div>
         <div className="legend">Legend</div>

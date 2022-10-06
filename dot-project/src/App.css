@@ -37,6 +37,13 @@
   border-radius: 20px;
   margin: 8px;
 }
+.sample-dot2 {
+  height: 30px;
+  width: 30px;
+  background-color: green;
+  border-radius: 20px;
+  margin: 8px;
+}
 
 .legend {
   font: bold;
