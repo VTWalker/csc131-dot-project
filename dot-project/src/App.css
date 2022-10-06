@@ -21,23 +21,6 @@
   margin-right: 2rem;
 }
 
-.dot-container {
-  border: 1px solid black;
-  display: flex;
-  margin-top: 5px;
-  margin-bottom: 1rem;
-  padding: 1rem;
-  width: 50%;
-}
-
-.sample-dot {
-  height: 30px;
-  width: 30px;
-  background-color: red;
-  border-radius: 20px;
-  margin: 8px;
-}
-
 .legend {
   font: bold;
   text-decoration: underline;

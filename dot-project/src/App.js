@@ -1,9 +1,6 @@
-// Format to import files:
-// import [File Name] from 'relative path'import logo from "./logo.svg";
 import "./App.css";
 import five9logo from "./images/Five9-black-logo.jpg";
-
-// File must be imported to
+import SampleDots from "./components/SampleDots";
 import SampleText from "./components/SampleText";
 
 function App() {
@@ -14,14 +11,8 @@ function App() {
       </h1>
       <div className="homepage-body">
         <SampleText />
-        <div className="dot-container">
-          <div className="sample-dot" />
-          <div className="sample-dot" />
-          <div className="sample-dot" />
-          <div className="sample-dot" />
-          <div className="sample-dot" />
-          <div className="sample-dot" />
-          <div className="sample-dot" />
+        <div>
+          <SampleDots />
         </div>
         <div className="legend">Legend</div>
         <div>Green: Available</div>
