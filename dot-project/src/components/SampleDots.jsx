@@ -2,13 +2,13 @@ import React from 'react';
 import "./SampleDots.css";
 
 function SampleDots() {
-  return (
-    <div className="dot-container">
-        <div className="sample-dot" />
 
- 
-    </div>
-  )
+for(var i=0;i<10000;i++){
+  $("sample-dot").append($(".dot-container").html());
+}
+    
+
+  
 }
 
 export default SampleDots;
