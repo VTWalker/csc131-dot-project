@@ -5,6 +5,7 @@ import five9logo from "./images/Five9-black-logo.jpg";
 
 // File must be imported to
 import SampleText from "./components/SampleText";
+import SampleDots from "./components/SampleDots";
 
 function App() {
   return (
@@ -15,13 +16,7 @@ function App() {
       <div className="homepage-body">
         <SampleText />
         <div className="dot-container">
-          <div className="sample-dot2" />
-          <div className="sample-dot" />
-          <div className="sample-dot2" />
-          <div className="sample-dot" />
-          <div className="sample-dot2" />
-          <div className="sample-dot2" />
-          <div className="sample-dot" />
+          yo
         </div>
         <div className="legend">Legend</div>
         <div>Green: Available</div>
