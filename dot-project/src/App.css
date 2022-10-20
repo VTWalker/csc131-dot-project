@@ -1,3 +1,13 @@
+.homepage {
+  margin: 2rem;
+  background-color: white;
+}
+
+.homepage-body {
+  margin-top: 2rem;
+}
+
+
 .home-header {
   font: bolder;
   display: flex;
@@ -10,6 +20,7 @@
   right: 50%;
   margin-right: 2rem;
 }
+
 
 .dot-container {
   border: 1px solid black;
@@ -31,19 +42,47 @@
 .title-graph {
   margin-right: 0rem;
 }
-/* 
-.sample-dot {
-  height: 30px;
-  width: 30px;
-  background-color: red;
-  border-radius: 20px;
-  margin: 8px;
+
+.legend {
+  font: bold;
+  text-decoration: underline;
 }
 
-.sample-dot2 {
-  height: 30px;
-  width: 30px;
-  background-color: green;
-  border-radius: 20px;
-  margin: 8px;
-} */
+
+.bodyc{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  min-height: 100vh;
+  background: #7393B3;
+}
+.containerc
+{
+  position: relative;
+  height: 400px;
+  border-bottom: 2px solid rgb(112, 171, 238);
+}
+
+.cloud
+{
+  position: relative;
+  top: -50px;
+  width:320px;
+  left: 1000%;
+  height: 100px;
+  background-color: rgb(168, 203, 243);
+  border-radius: 200px;
+}
+.cloud::before
+{
+  content: '';
+  position: absolute;
+  top: -50px;
+  left: 40px;
+  width: 110px;
+  height: 110px;
+  background-color:rgb(168, 203, 243);
+  border-radius: 50%;
+  box-shadow: 90px 0 0 30px rgb(188, 215, 236);
+}
+
