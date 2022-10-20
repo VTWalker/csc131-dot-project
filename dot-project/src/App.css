@@ -1,13 +1,3 @@
-.homepage {
-  margin: 2rem;
-  /* background-color: pink;
-  opacity: 30%; */
-}
-
-.homepage-body {
-  margin-top: 3rem;
-}
-
 .home-header {
   font: bolder;
   display: flex;
@@ -26,10 +16,22 @@
   display: flex;
   margin-top: 5px;
   margin-bottom: 1rem;
-  padding: 1rem;
-  width: 50%;
+  padding: .5rem;
+  width: 80%;  
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
+.homepage-body {
+  margin-top: 4rem;
+  display: flex;
+  margin-left: 1rem;
+}
+
+.title-graph {
+  margin-right: 0rem;
+}
+/* 
 .sample-dot {
   height: 30px;
   width: 30px;
@@ -37,15 +39,11 @@
   border-radius: 20px;
   margin: 8px;
 }
+
 .sample-dot2 {
   height: 30px;
   width: 30px;
   background-color: green;
   border-radius: 20px;
   margin: 8px;
-}
-
-.legend {
-  font: bold;
-  text-decoration: underline;
-}
+} */

@@ -1,0 +1,52 @@
+
+
+.legend-items-container {
+    margin-top: 0.5rem;
+    display: flex;
+    margin-right: 5rem;
+    margin-left: 0rem;
+}
+
+.legend-header {
+    font: 500;
+}
+
+.green-dot {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-right: 0.25rem;
+    background-color: green;
+}
+
+.red-dot {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-right: 0.25rem;
+    background-color: red;
+}
+
+.yellow-dot {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-right: 0.25rem;
+    background-color: yellow;
+}
+
+.blue-dot {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-right: 0.25rem;
+    background-color: blue;
+}
+
+.black-dot {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-right: 0.25rem;
+    background-color: black;
+}

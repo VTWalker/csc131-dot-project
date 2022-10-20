@@ -1,4 +1,5 @@
 import { useCallback } from "react";
+import AgentList from "./AgentList";
 
 const sampleAgents = [
     {
@@ -29,6 +30,18 @@ const sampleAgents = [
 ]
 
 function Agents() {
-    const agentData = agentData.map(agents => 
-        <AgentList />)
+    const agentData = sampleAgents.map(agents => 
+        <AgentList 
+        id={agents.id}
+        name={agents.name}
+        status={agents.status}
+        />)
+
+        return (
+            <div>
+                {agentData}
+            </div>
+        )
 }
+
+export default Agents;
