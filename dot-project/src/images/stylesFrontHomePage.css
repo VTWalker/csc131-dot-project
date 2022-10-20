@@ -44,7 +44,7 @@
     font-size: 2rem;
 
 }
-.fa-gem {
+.Five9-pic {
     margin-right: 0.5rem;
 
 }
@@ -204,13 +204,7 @@
         transform: translateY(-8px) rotate(-45deg);
     }
 
-    .logo {
-        max-width: 100px;
-        max-height: 100px;
-        position: absolute;
-        right: 50%;
-        margin-right: 2rem;
-      }
+    
 
 
 }
