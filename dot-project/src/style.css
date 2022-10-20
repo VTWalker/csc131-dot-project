@@ -1,0 +1,40 @@
+*
+
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.containerc
+{
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    border-bottom: 2px solid #FFF;
+}
+
+.cloud
+{
+    position: relative;
+    top: 50px;
+    width:32px;
+    height: 10px;
+    background-color: 	#A7C7E7;
+    border-radius: 100px;
+}
+.cloud::before
+{
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: 4px;
+    width: 11px;
+    height: 11px;
+    background-color:   #A7C7E7;
+    border-radius: 50%;
+    box-shadow: 9px 0 0 3px	#A7C7E7;
+}
+
+
