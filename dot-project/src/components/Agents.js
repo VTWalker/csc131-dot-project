@@ -29,7 +29,8 @@ const sampleAgents = [
     }
 ]
 
-function Agents() {
+function Agents(props) {
+    console.log(props);
     const agentData = sampleAgents.map(agents => 
         <AgentList 
         id={agents.id}

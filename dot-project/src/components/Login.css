@@ -1,9 +1,50 @@
+*
+
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.containerc
+{
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    border-bottom: 2px solid #FFF;
+}
+
+.cloud
+{
+    position: relative;
+    top: 50px;
+    width:32px;
+    height: 10px;
+    background-color: 	#A7C7E7;
+    border-radius: 100px;
+}
+
+.cloud::before
+{
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: 4px;
+    width: 11px;
+    height: 11px;
+    background-color:   #A7C7E7;
+    border-radius: 50%;
+    box-shadow: 9px 0 0 3px	#A7C7E7;
+}
+
 *{
     margin: 0;
     padding: 0;
     font-family: 'Fira Sans', sans-serif;
 
 }
+
 /*body{
     height:100vh;
     display: flex;
@@ -11,6 +52,7 @@
     align-items: center;
     background: linear-gradient(180deg,#842990,#2A0077);
 } */
+
 .login-section{
     width: 100%;
     height:100vh;
@@ -34,7 +76,7 @@
     top: 20%;
     width: 100%;
     height: 60%;
-    background: url(../src/images/pattern.png);
+    background: url(../images/pattern.png);
     background-size: 110% 100%;
     position: relative;
 }
@@ -182,3 +224,4 @@ button:hover {
         color:white;
     }
 }
+

@@ -27,19 +27,15 @@
 
 @keyframes scaling{
     0%, 100%{
-        transform:scale(.95);
         background-color: green;
     }
     0%{
-        transform:scale(1);
         bakcground-color: red;
     }
     50%{
-        transform:scale(1);
         background-color: blue;
     }
     75%{
-        transform:scale(1);
         background-color: yellow;
     }
 }
