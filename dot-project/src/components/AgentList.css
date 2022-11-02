@@ -1,0 +1,24 @@
+.agent-data {
+    display: none;
+}
+
+.agent-data:hover {
+    display: block;
+}
+
+.agent-dot {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: green;
+    display: block;
+    margin: .25rem;
+}
+
+/* .sample-dot {
+    height: 30px;
+    width: 30px;
+    background-color: red;
+    border-radius: 20px;
+    margin: 8px;
+  } */

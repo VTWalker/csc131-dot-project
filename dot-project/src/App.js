@@ -1,37 +1,21 @@
 // Format to import files:
 // import [File Name] from 'relative path'import logo from "./logo.svg";
+import { Fragment } from 'react';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
-import "./SampleDots.css";
-import "./style.css";
-import five9logo from "./images/Five9-black-logo.jpg";
-
-// File must be imported to
-import SampleText from "./components/SampleText";
-import SampleDots from "./components/SampleDots";
+import Home from "./components/Home";
+import Login from './components/Login';
 
 function App() {
   return (
-    <div className="homepage">
-      <h1 className="home-header">
-        <img className= "logo" src= {five9logo} alt = ""/>
-      
-      </h1>
-      <div className="homepage-body">
-        <SampleText />
-        <div className="dot-container">
-        <SampleDots></SampleDots>
-          <div className="sample-dot" />
-          <div className="sample-dot2" />
-
-          </div>
-        <div className="legend">Legend</div>
-        <div>Green: Available</div>
-        <div>Red: On Voice Call</div>
-        <div>Yellow: After Call Work</div>
-        <div>Blue: On Preview Task</div>
-        <div>Black: Logged Out</div>
-      </div>
-    </div>
+    <Fragment>
+      {/* <Login /> */}
+      <Home />
+        {/* <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/login" element={<Login />} />
+        </Routes> */}
+    </Fragment>
   );
 }
 
