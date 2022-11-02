@@ -19,7 +19,6 @@ function AgentList(props) {
           null}
           <p className="agent-data">{props.status}</p>
         </div>
-        
       </div>
   )
 }
