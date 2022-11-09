@@ -1,10 +1,10 @@
-.agent-data {
+/* .agent-data {
     display: none;
 }
 
 .agent-data:hover {
     display: block;
-}
+} */
 
 .agent-dot {
     height: 30px;
@@ -12,8 +12,29 @@
     border-radius: 50%;
     background-color: green;
     display: block;
-    margin: .25rem;
+    margin: .1rem;
 }
+
+.single-agent .agent-data{
+    display: none;
+}
+
+.single-agent:hover .agent-data{
+    display: block;
+    border: 1px solid black;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    font-size: small;
+}
+
+/* border: 1px solid black;
+  display: flex;
+  margin-top: 5px;
+  margin-bottom: 1rem;
+  padding: .5rem;
+  width: 80%;  
+  flex-direction: row;
+  flex-wrap: wrap; */
 
 /* .sample-dot {
     height: 30px;
