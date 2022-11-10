@@ -4,6 +4,7 @@ import Legend from "./Legend";
 import './Home.css';
 import axios from 'axios';
 import Agents from './Agents';
+import FrontPage from './FrontPage';
 
 function Home() {
   const [agentData, setAgentData] = useState();
@@ -27,6 +28,7 @@ function Home() {
 
   return (
     <React.Fragment>
+      <FrontPage />
       <div className="homepage">
         <h1 className="home-header">
           <img className="logo" src={five9logo} />
