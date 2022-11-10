@@ -1,5 +1,5 @@
 import React, { Fragment, useEffect, useState } from 'react';
-import five9logo from'../images/Five9-black-logo.jpg';
+/*import five9logo from'../images/Five-Nine-Logo.png';*/
 import Legend from "./Legend";
 import './Home.css';
 import axios from 'axios';
@@ -37,7 +37,7 @@ function Home() {
             {/* <SampleText /> */}
             <div className="dot-container">
               {/* <SampleDots /> */}
-              {agentData == null || agentData == undefined ? 
+              {agentData === null || agentData === undefined ? 
               null :
               <Agents agentData={agentData} />}
             </div>
