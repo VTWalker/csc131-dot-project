@@ -33,7 +33,6 @@ function Home() {
         <h1 className="home-header">
         </h1>
         <div className="homepage-body">
-          <div className="title-graph">
             {/* <SampleText /> */}
             <div className="dot-container">
               {/* <SampleDots /> */}
@@ -41,7 +40,6 @@ function Home() {
               null :
               <Agents agentData={agentData} />}
             </div>
-          </div>
           <Legend />
         </div>
       </div>
