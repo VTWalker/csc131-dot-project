@@ -1,10 +1,8 @@
-
 .homepage-body {
     margin-top: 4rem;
     display: flex;
     margin-left: 1rem;
-  }
-  
+  } 
   
   .home-header {
     font: bolder;
@@ -49,9 +47,4 @@
     background-color: green;
     border-radius: 20px;
     margin: 8px;
-  }
-  
-  .legend {
-    font: bold;
-    text-decoration: underline;
   }

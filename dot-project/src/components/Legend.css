@@ -1,13 +1,12 @@
-
-
 .legend-items-container {
     margin-top: 0.5rem;
     display: flex;
     margin-right: 5rem;
+    text-decoration: none;
 }
 
 .legend-header {
-    font: 500;
+    font-size: x-large;
 }
 
 .green-dot {

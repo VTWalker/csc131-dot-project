@@ -44,7 +44,6 @@ function Home() {
           </div>
         </div>
         <Legend />
-        
       </div>
     </div>
   )

@@ -9,7 +9,7 @@ import Login from './components/Login';
 function App() {
   return (
     <Fragment>
-      {/* <Login /> */}
+      <Login />
       <Home />
         {/* <Routes>
           <Route path="/" element={<Home />} />
