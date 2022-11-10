@@ -191,7 +191,7 @@ button:hover {
 }
 
 .navbar {
-    background: #f0f0ee;
+    background: #1C2E4A;
     height: 80px;
     display: flex;
     justify-content: center;
@@ -247,7 +247,7 @@ button:hover {
 }
 
 .navbar__links{
-    color: #000;
+    color: white;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -276,17 +276,32 @@ button:hover {
     border: none;
     outline: none;
     border-radius: 4px;
+    background: #03002e;
+    color: #fff;
+}
+
+.button__available{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 10px 20px;
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 4px;
     background: #ff0266;
     color: #fff;
 }
 
 .button:hover{
-    background: #0336ff;
+    background: #3895D3;
     transition: all 0.3s ease;
 }
 
 .navbar__links:hover {
-    color: #0336ff;
+    color: #336296;
     transition: all 0.3s ease;
 }
 
@@ -364,6 +379,15 @@ button:hover {
     }
 
     .button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        height: 80px;
+        margin: 0;
+    }
+
+    .button_aa{
         display: flex;
         justify-content: center;
         align-items: center;
