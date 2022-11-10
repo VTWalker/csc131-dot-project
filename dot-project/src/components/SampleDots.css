@@ -30,7 +30,10 @@
         background-color: green;
     }
     0%{
-        bakcground-color: red;
+        background-color: red;
+    }
+    25%{
+        background-color: black;
     }
     50%{
         background-color: blue;

@@ -17,17 +17,16 @@
     margin-right: 2rem;
   }
   
-  
   .dot-container {
-    border: 1px solid black;
     display: flex;
     margin-top: 5px;
     margin-bottom: 1rem;
     padding: .5rem;
-    width: 80%;  
+    width: 90%;  
     flex-direction: row;
     flex-wrap: wrap;
   }
+
   .containerc
   {
     position: relative;
@@ -39,12 +38,4 @@
     margin-top: 4rem;
     display: flex;
     margin-left: 1rem;
-  }
-  
-  .sample-dot2 {
-    height: 30px;
-    width: 30px;
-    background-color: green;
-    border-radius: 20px;
-    margin: 8px;
   }

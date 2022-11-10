@@ -1,54 +1,56 @@
-/* .agent-data {
-    display: none;
-}
-
-.agent-data:hover {
-    display: block;
-} */
-
 .agent-dot-green {
-    height: 30px;
-    width: 30px;
+    height: 15px;
+    width: 15px;
     border-radius: 50%;
     background-color: green;
     display: block;
     margin: .1rem;
+    animation: scaling 7s infinite;
+    display: incline-block;
 }
 
 .agent-dot-red {
-    height: 30px;
-    width: 30px;
+    height: 15px;
+    width: 15px;
     border-radius: 50%;
     background-color: red;
     display: block;
     margin: .1rem;
+    animation: scaling 6s infinite;
+    display: incline-block;
 }
 
 .agent-dot-yellow {
-    height: 30px;
-    width: 30px;
+    height: 15px;
+    width: 15px;
     border-radius: 50%;
     background-color: yellow;
     display: block;
     margin: .1rem;
+    animation: scaling 5s infinite;
+    display: incline-block;
 }
 
 .agent-dot-blue {
-    height: 30px;
-    width: 30px;
+    height: 15px;
+    width: 15px;
     border-radius: 50%;
     background-color: blue;
     display: block;
     margin: .1rem;
+    animation: scaling 3s infinite;
+    display: incline-block;
 }
 
 .agent-dot-black {
-    height: 30px;
-    width: 30px;
+    height: 15px;
+    width: 15px;
     border-radius: 50%;
     background-color: black;
     display: block;
     margin: .1rem;
+    animation: scaling 4s infinite;
+    display: incline-block;
 }
 
 
@@ -62,6 +64,8 @@
     margin: 0.5rem;
     padding: 0.5rem;
     font-size: small;
+    position: absolute;
+    background-color: white;
 }
 
 /* border: 1px solid black;
