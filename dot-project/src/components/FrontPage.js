@@ -1,5 +1,4 @@
  import './FrontPage.css';
- import five9logo from'../images/Five9-black-logo.jpg';
  
  function FrontPage() {
       return (
@@ -12,8 +11,7 @@
           {/* Navbar Section */}
           <nav className="navbar">
             <div className="navbar__container">
-              <a href="https://www.five9.com" id="navbar__logo"> 
-                <img className="logo" src={five9logo} />
+              <a href="https://www.five9.com" id="navbar__logo"> Five9
                 <img src="./images/Five9-black-logo.jpg" className="navbar__logo" alt="" />
               </a>
               <div className="navbar__toggle" id="mobile-menu">

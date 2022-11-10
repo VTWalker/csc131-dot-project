@@ -31,6 +31,7 @@ function Home() {
       <FrontPage />
       <div className="homepage">
         <h1 className="home-header">
+          <img className="logo" src={five9logo} />
         </h1>
         <div className="homepage-body">
           <div className="title-graph">
