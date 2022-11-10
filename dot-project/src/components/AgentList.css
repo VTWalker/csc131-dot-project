@@ -6,7 +6,7 @@
     display: block;
 } */
 
-.agent-dot {
+.agent-dot-green {
     height: 30px;
     width: 30px;
     border-radius: 50%;
@@ -14,6 +14,43 @@
     display: block;
     margin: .1rem;
 }
+
+.agent-dot-red {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: red;
+    display: block;
+    margin: .1rem;
+}
+
+.agent-dot-yellow {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: yellow;
+    display: block;
+    margin: .1rem;
+}
+
+.agent-dot-blue {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: blue;
+    display: block;
+    margin: .1rem;
+}
+
+.agent-dot-black {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: black;
+    display: block;
+    margin: .1rem;
+}
+
 
 .single-agent .agent-data{
     display: none;

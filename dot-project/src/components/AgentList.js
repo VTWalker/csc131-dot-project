@@ -5,12 +5,16 @@ import './AgentList.css';
 function AgentList(props) {
   return (
       <div className="single-agent">
-        {props.status === 'online' ? 
-          <p2>green</p2> :
-          props.status === 'offline' ? 
-          <p2>red</p2> :
-          props.status === 'preview-task' ? 
-          <p2>blue</p2> :
+        {props.status === 'available' ? 
+          <div className="agent-dot-green"></div> :
+          props.status === 'on voice call' ? 
+          <div className="agent-dot-red"></div> :
+          props.status === 'after call work' ? 
+          <div className="agent-dot-yellow"></div> :
+          props.status === 'on preview task' ?
+          <div className="agent-dot-blue"></div> :
+          props.status === 'logged out' ? 
+          <div className="agent-dot-black"></div> :
         null}
         <div className="agent-data">
           <p2>ID: {props.id}<br/></p2>

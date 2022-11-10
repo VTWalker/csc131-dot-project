@@ -5,7 +5,7 @@ import "./Legend.css";
 function Legend() {
   return (
     <div className="legend">
-        <h1 className="legend-header">Legend</h1>
+        <div className="legend-header">Legend</div>
         <div className="legend-items-container" >
             <div className="green-dot"/>
             <div>Available</div>
