@@ -29,6 +29,7 @@ function Home() {
   
 
   return (
+<<<<<<< Updated upstream
     <div className="homepage">
       <h1 className="home-header">
         <img className="logo" src={five9logo} />
@@ -41,6 +42,22 @@ function Home() {
             {agentData == null || agentData == undefined ? 
             null :
             <Agents agentData={agentData} />}
+=======
+    <React.Fragment>
+      <FrontPage />
+      <div className="homepage">
+        <h1 className="home-header">
+        </h1>
+        <div className="homepage-body">
+          <div className="title-graph">
+            {/* <SampleText /> */}
+            <div className="dot-container">
+              {/* <SampleDots /> */}
+              {agentData == null || agentData == undefined ? 
+              null :
+              <Agents agentData={agentData} />}
+            </div>
+>>>>>>> Stashed changes
           </div>
         </div>
         <Legend />
