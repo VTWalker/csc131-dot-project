@@ -2,7 +2,7 @@
     height: 15px;
     width: 15px;
     border-radius: 50%;
-    background-color: #5AA469;
+    background-color: #349976;
     display: block;
     margin: .1rem;
     animation: scaling 7s infinite;
@@ -13,7 +13,7 @@
     height: 15px;
     width: 15px;
     border-radius: 50%;
-    background-color: #B22727;
+    background-color: #b23e58;
     display: block;
     margin: .1rem;
     animation: scaling 6s infinite;
@@ -24,7 +24,7 @@
     height: 15px;
     width: 15px;
     border-radius: 50%;
-    background-color: #F8CB2E;
+    background-color: #eac371;
     display: block;
     margin: .1rem;
     animation: scaling 5s infinite;
@@ -35,7 +35,7 @@
     height: 15px;
     width: 15px;
     border-radius: 50%;
-    background-color: #006E7F;
+    background-color: #4c9ed7;
     display: block;
     margin: .1rem;
     animation: scaling 3s infinite;
@@ -46,7 +46,7 @@
     height: 15px;
     width: 15px;
     border-radius: 50%;
-    background-color: black;
+    background-color: #282A3A;
     display: block;
     margin: .1rem;
     animation: scaling 4s infinite;
@@ -60,12 +60,12 @@
 
 .single-agent:hover .agent-data{
     display: block;
-    border: 1px solid black;
+    border: 1px solid;
     margin: 0.5rem;
     padding: 0.5rem;
     font-size: small;
     position: absolute;
-    background-color: white;
+    background-color: #6B728E;
 }
 
 /* border: 1px solid black;
