@@ -34,7 +34,6 @@ function Home() {
           <img className="logo" src={five9logo} />
         </h1>
         <div className="homepage-body">
-          <div className="title-graph">
             {/* <SampleText /> */}
             <div className="dot-container">
               {/* <SampleDots /> */}
@@ -42,7 +41,6 @@ function Home() {
               null :
               <Agents agentData={agentData} />}
             </div>
-          </div>
           <Legend />
         </div>
       </div>

@@ -1,8 +1,7 @@
 .homepage-body {
-    /*margin-top: 4rem;*/
     display: flex;
     /*margin-left: 1rem;*/
-    background-color: #23395D;
+    background-color: #2a314c;
     /*border-radius: 30px;*/
     max-height: 90%;
   } 
@@ -22,13 +21,12 @@
   
   .dot-container {
     display: flex;
-    margin-top: 80px;
     margin-bottom: 100%;
     padding: .5rem;
     width: 90%;  
     flex-direction: row;
     flex-wrap: wrap;
-    background-color: #23395D;
+    background-color: #2a314c;
   }
 
   .containerc
@@ -43,5 +41,5 @@
     /*margin-top: 4rem;*/
     display: flex;
     /*margin-left: 1rem;*/
-    background-color: #23395D;
+    background-color: #2a314c;
   }

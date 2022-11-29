@@ -1,3 +1,4 @@
+ import { Link } from 'react-router-dom';
  import './FrontPage.css';
  import five9logo from'../images/Five9-black-logo.jpg';
  
@@ -38,9 +39,9 @@
                   </a>   
                 </li>
                 <li className="navbar__btn">
-                  <a href="http://127.0.0.1:5500/dot-project/src/login.html" className="button">
+                  <Link to="/login" className="button">
                     Log In 
-                  </a>   
+                  </Link>   
                 </li>
               </ul>
             </div>
