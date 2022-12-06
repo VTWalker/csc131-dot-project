@@ -7,8 +7,10 @@ function Legend() {
     <div className="legend">
         <div className="legend-header">Legend</div>
         <div className="legend-items-container" >
+            
             <div className="green-dot"/>
             <div>Available</div>
+            
         </div>
         <div className="legend-items-container">
             <div className="red-dot" />

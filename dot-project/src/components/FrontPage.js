@@ -38,7 +38,7 @@
                   </a>   
                 </li>
                 <li className="navbar__btn">
-                  <a href="http://127.0.0.1:5500/dot-project/src/login.html" className="button">
+                  <a href="http://127.0.0.1:5500/dot-project/snnrc/login.html" className="button">
                     Log In 
                   </a>   
                 </li>

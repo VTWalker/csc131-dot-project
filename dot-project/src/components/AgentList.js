@@ -23,6 +23,5 @@ function AgentList(props) {
         </div>
       </div>
   )
-}
-
+} 
 export default AgentList;
