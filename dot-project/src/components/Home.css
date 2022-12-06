@@ -14,7 +14,7 @@
   .logo {
     max-width: 200px;
     max-height: 80px;
-    position: absolute;
+    position: flex;
     right: 80%;
     margin-right: 2rem;
   }
