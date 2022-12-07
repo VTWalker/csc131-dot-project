@@ -4,6 +4,7 @@
     background-color: #2a314c;
     /*border-radius: 30px;*/
     max-height: 90%;
+    
   } 
 
   .home-header {
@@ -23,7 +24,7 @@
     display: flex;
     margin-bottom: 100%;
     padding: .5rem;
-    width: 90%;  
+    width: 100%;  
     flex-direction: row;
     flex-wrap: wrap;
     background-color: #2a314c;

@@ -4,30 +4,38 @@ import "./Legend.css";
 
 function Legend() {
   return (
+    
     <div className="legend">
-        <div className="legend-header">Legend</div>
+        <link href="https://fonts.cdnfonts.com/css/product-sans" rel="stylesheet"></link>
         <div className="legend-items-container" >
-            <div className="green-dot"/>
-            <div>Available</div>
+        <div id='mySidenav' class="sidenav">
+        <a href="#" id ="available">Available</a>
+        <a href="#" id ="onvoicecall">On Voice Call</a>
+        <a href="#" id ="aftercallwork">After Call Work</a>
+        <a href="#" id ="onpreview">On Preview Task</a>
+        <a href="#" id ="loggedout">Logged out</a>
+        </div>
+        <div className="legend-items-container:hover">
+        </div>
+        
         </div>
         <div className="legend-items-container">
-            <div className="red-dot" />
-            <div>On Voice Call</div>
+
         </div>
         <div className="legend-items-container">
-            <div className="yellow-dot" />
-            <div>After Call Work</div>
+
         </div>
         <div className="legend-items-container">
-            <div className="blue-dot"/>
-            <div>On Preview Task</div>
+
         </div>
         <div className="legend-items-container">
-            <div className="black-dot"/>
-            <div>Logged Out</div>
+
         </div>
     </div>
+    
+    
   )
-}
+
+  }
 
 export default Legend;
