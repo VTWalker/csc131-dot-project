@@ -5,7 +5,7 @@
     background-color: #349976;
     display: block;
     margin: .1rem;
-    animation: scaling 7s infinite;
+  
     display: incline-block;
 }
 
@@ -16,7 +16,7 @@
     background-color: #b23e58;
     display: block;
     margin: .1rem;
-    animation: scaling 6s infinite;
+ 
     display: incline-block;
 }
 
@@ -27,7 +27,7 @@
     background-color: #eac371;
     display: block;
     margin: .1rem;
-    animation: scaling 5s infinite;
+   
     display: incline-block;
 }
 
@@ -38,7 +38,7 @@
     background-color: #4c9ed7;
     display: block;
     margin: .1rem;
-    animation: scaling 3s infinite;
+ 
     display: incline-block;
 }
 
@@ -49,7 +49,7 @@
     background-color: #282A3A;
     display: block;
     margin: .1rem;
-    animation: scaling 4s infinite;
+   
     display: incline-block;
 }
 

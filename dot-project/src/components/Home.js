@@ -8,22 +8,30 @@ import FrontPage from './FrontPage';
 
 function Home() {
   const [agentData, setAgentData] = useState();
+  const [time, setTime] = useState(Date.now());
 
   useEffect(() => {
     async function fetchData() {
       const temp = await axios.get('/agent')
       .then(function (response) {
         // handle success
-        console.log(response.data[0].status);
-        return response.data;
+       // console.log(response.data);
+      setAgentData(response.data);
+      //  return response.data;
       }).catch(function (error) {
         // handle error
         console.log(error);
       })
-      setAgentData(temp);
+     // setAgentData(temp);
     }
     fetchData();
-  }, [])
+
+    const interval = setInterval(() => setTime(Date.now()), 500);
+  return () => {
+    clearInterval(interval);
+  };
+
+  }, [time])
   
 
   return (
