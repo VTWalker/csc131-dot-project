@@ -1,6 +1,6 @@
  import { Link } from 'react-router-dom';
  import './FrontPage.css';
- import five9logo from'../images/Five9-black-logo.jpg';
+ import five9logo from'../images/Five-Nine-Logo.png';
  
  function FrontPage() {
       return (
@@ -17,7 +17,7 @@
             <div className="navbar__container">
               <a href="https://www.five9.com" id="navbar__logo"> 
                 <img className="logo" src={five9logo} />
-                <img src="./images/Five9-black-logo.jpg" className="navbar__logo" alt="" />
+                
               </a>
               <div className="navbar__toggle" id="mobile-menu">
                 <span className="bar" />
