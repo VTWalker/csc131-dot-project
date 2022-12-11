@@ -1,8 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Fira Sans', sans-serif;
-
+    font-family: 'Product Sans', sans-serif;
 }
 /*body{
     height:100vh;
@@ -121,6 +120,7 @@ p{
 }
 
 .login-button{
+    
     width: 200px;
     padding: 10px 20px;
     border-radius: 40px;
@@ -164,6 +164,7 @@ button:hover {
             width:100%;
         }
     .login-form{
+        font-family: 'Product Sans', sans-serif;
         width: 100%;
         padding: 100px 0;
         z-index: 99;
@@ -187,7 +188,7 @@ button:hover {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Silka', sans-serif;
+    font-family: 'Product Sans', sans-serif;
 }
 
 .navbar {
@@ -200,6 +201,8 @@ button:hover {
     position: sticky;
     top: 0;
     z-index: 999;
+    font-family: 'Product Sans', sans-serif;
+
 }
 
 .navbar__container{
@@ -211,10 +214,12 @@ button:hover {
     max-width: 1300px;
     margin: 0 auto;
     padding: 0 50px;
+    font-family: 'Product Sans', sans-serif;
 
 }
 
 #navbar__logo{
+    font-family: 'Product Sans', sans-serif;
     background-color: #ff0266;
     background-image: linear-gradient(to top, #000 0%, #000 100%);
     background-size: 100%;
@@ -235,6 +240,7 @@ button:hover {
 }
 
 .navbar__menu {
+    font-family: 'Product Sans', sans-serif;
     display: flex;
     align-items: center;
     list-style: none;
@@ -254,10 +260,12 @@ button:hover {
     text-decoration: none;
     padding: 0 1rem;
     height: 100%;
+    font-family: 'Product Sans', sans-serif;
 
 }
 
 .navbar__btn{
+    font-family: 'Product Sans', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -278,6 +286,7 @@ button:hover {
     border-radius: 4px;
     background: #03002e;
     color: #fff;
+    font-family: 'Product Sans', sans-serif;
 }
 
 .button__available{
@@ -307,6 +316,7 @@ button:hover {
 
 @media screen and (max-width: 960px){
     .navbar__container {
+        font-family: 'Product Sans', sans-serif;
         display: flex;
         justify-content: space-between;
         height: 80px;
@@ -329,6 +339,7 @@ button:hover {
         height: 50vh;
         z-index: -1;
         background: #131313;
+        
     }
 
     .navbar__menu.active{
@@ -339,6 +350,7 @@ button:hover {
         z-index: 99;
         height: 50vh;
         font-size: 1.6rem;
+        font-family: 'Product Sans', sans-serif;
 
     }
 
@@ -351,7 +363,8 @@ button:hover {
         height: 3px;
         margin: 5px auto;
         transition: all 0.3s ease-in-out;
-        background: #000;
+        background: white;
+        font-family: 'Product Sans', sans-serif;
     }
 
     .navbar__item{

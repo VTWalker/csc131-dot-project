@@ -1,6 +1,6 @@
  import { Link } from 'react-router-dom';
  import './FrontPage.css';
- import five9logo from'../images/Five-Nine-Logo.png';
+ import five9logo from'../images/Five9-black-logo.jpg';
  
  function FrontPage() {
       return (
@@ -9,13 +9,15 @@
           <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
           <meta name="viewport" content="width=device-width, initial-scale=1.0" />
           <title>Five9Website</title>
-          <link rel="stylesheet" href="stylesFrontHomePage.css" />
+          <link rel="stylesheet" href="FrontPage.css" />
+          <link href="https://fonts.cdnfonts.com/css/product-sans" rel="stylesheet"></link>
           {/* Navbar Section */}
           <nav className="navbar">
+          <link href="https://fonts.cdnfonts.com/css/product-sans" rel="stylesheet"></link>
             <div className="navbar__container">
               <a href="https://www.five9.com" id="navbar__logo"> 
                 <img className="logo" src={five9logo} />
-                <img src="./images/Five-Nine-Logo.png" className="navbar__logo" alt="" />
+                <img src="./images/Five9-black-logo.jpg" className="navbar__logo" alt="" />
               </a>
               <div className="navbar__toggle" id="mobile-menu">
                 <span className="bar" />
@@ -30,7 +32,7 @@
                 </li>
                 <li className="navbar__item">
                   <a href="/dot-project/src/components/index.html" className="navbar__links">
-                    Legend 
+                    Analytics
                   </a>   
                 </li>
                 <li className="navbar__item">

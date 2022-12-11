@@ -70,19 +70,19 @@
 
 @keyframes scaling{
     0%, 100%{
-        background-color: green;
+        background-color: #50c691;
     }
     0%{
-        background-color: red;
+        background-color: #a63249;
     }
     25%{
-        background-color: black;
+        background-color: #595974;
     }
     50%{
-        background-color: blue;
+        background-color: #4ba9ec;
     }
     75%{
-        background-color: yellow;
+        background-color: #efc16e;
     }
 }
 
