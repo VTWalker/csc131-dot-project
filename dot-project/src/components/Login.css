@@ -15,29 +15,6 @@
     border-bottom: 2px solid #FFF;
 }
 
-.cloud
-{
-    position: relative;
-    top: 50px;
-    width:32px;
-    height: 10px;
-    background-color: 	#A7C7E7;
-    border-radius: 100px;
-}
-
-.cloud::before
-{
-    content: '';
-    position: absolute;
-    top: -5px;
-    left: 4px;
-    width: 11px;
-    height: 11px;
-    background-color:   #A7C7E7;
-    border-radius: 50%;
-    box-shadow: 9px 0 0 3px	#A7C7E7;
-}
-
 *{
     margin: 0;
     padding: 0;
@@ -59,7 +36,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(180deg,#C3B1E1,#2A0077);
+    background: linear-gradient(180deg,#242b41,#03002e);
     animation: gradient 15s ease infinite;
     /*larger screen*/
     max-width: 2000px;
@@ -89,7 +66,7 @@
 
 .login-form{
     width: 40%;
-    background-color:white;
+    background-color:#03002e;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -107,7 +84,7 @@ p{
 
 h1,
 p{
-    color: #71208B
+    color: #bbbaba
 }
 
 .input-group{
@@ -132,20 +109,20 @@ p{
     outline: none;
 }
 .input-group input:focus {
-    border: 1px solid #2A0077;
+    border: 1px solid #fafafa;
     animation: shadow-animate 0.5s alternate;
 }
 
 .input-group input:focus+i{
-    color: #2A0077;
+    color: #5b9cda;
 }
 /*animation */
 @keyframes shadow-animate {
     from{
-        box-shadow: 0 0 0 15px #2A007733;
+        box-shadow: 0 0 0 15px #fefdff33;
     }
     to {
-        box-shadow: 0 0 0 0px #2A007733;
+        box-shadow: 0 0 0 0px #ffffff33;
     }
     
 }
@@ -158,6 +135,7 @@ p{
 
 .forget-pwd{
     width: 80%;
+    color:#fafafa;
     margin: 20px auto;
     text-align: right;
 }
@@ -168,7 +146,7 @@ p{
     border-radius: 40px;
     color: white;
     text-transform: uppercase;
-    background: linear-gradient(45deg,#842990,#2A0077);
+    background: linear-gradient(45deg,#2a3148,#1f144d);
     border: 0;
     font-size: 17px;
     margin: 10px auto;
@@ -192,7 +170,7 @@ p{
 }
 
 button:hover {
-    background: linear-gradient(0deg,#842990,#2A0077);
+    background: linear-gradient(0deg,#373639,#000000);
 }
 
 /* for responsive */
@@ -214,15 +192,15 @@ button:hover {
         top: 0;
         left:0;
         bottom: 0;
-        background-color: rgba(255, 255, 255, 0.25);
+        background-color: rgba(32, 23, 82, 0.541);
         backdrop-filter: blur(4.5px);
         -webkit-backdrop-filter: blur(4.5px);
         justify-content: flex-start;
     }
-    h1,
-    p,
+    h1,p,
     .forget-pwd{
-        color:white;
+    color: #bbbaba;
+    font-family: 'Product Sans', sans-serif;
     }
 }
 

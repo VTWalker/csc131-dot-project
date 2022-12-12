@@ -1,5 +1,4 @@
 import React, { Fragment, useEffect, useState } from 'react';
-/*import five9logo from'../images/Five-Nine-Logo.png';*/
 import Legend from "./Legend";
 import './Home.css';
 import axios from 'axios';
@@ -39,7 +38,6 @@ function Home() {
       <FrontPage />
       <div className="homepage">
         <h1 className="home-header">
-          <img className="logo" src={five9logo} />
         </h1>
         <div className="homepage-body">
             {/* <SampleText /> */}

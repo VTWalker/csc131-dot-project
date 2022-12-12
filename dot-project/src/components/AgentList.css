@@ -1,6 +1,6 @@
 .agent-dot-green {
-    height: 15px;
-    width: 15px;
+    height: 7px;
+    width: 7px;
     border-radius: 50%;
     background-color: #349976;
     display: block;
@@ -10,8 +10,8 @@
 }
 
 .agent-dot-red {
-    height: 15px;
-    width: 15px;
+    height: 7px;
+    width: 7px;
     border-radius: 50%;
     background-color: #b23e58;
     display: block;
@@ -21,8 +21,8 @@
 }
 
 .agent-dot-yellow {
-    height: 15px;
-    width: 15px;
+    height: 7px;
+    width: 7px;
     border-radius: 50%;
     background-color: #eac371;
     display: block;
@@ -32,8 +32,8 @@
 }
 
 .agent-dot-blue {
-    height: 15px;
-    width: 15px;
+    height: 7px;
+    width: 7px;
     border-radius: 50%;
     background-color: #4c9ed7;
     display: block;
@@ -43,10 +43,10 @@
 }
 
 .agent-dot-black {
-    height: 15px;
-    width: 15px;
+    height: 7px;
+    width: 7px;
     border-radius: 50%;
-    background-color: #282A3A;
+    background-color: hsl(232, 13%, 34%);
     display: block;
     margin: .1rem;
    
