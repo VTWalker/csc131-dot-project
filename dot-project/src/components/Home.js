@@ -25,7 +25,7 @@ function Home() {
     }
     fetchData();
 
-    const interval = setInterval(() => setTime(Date.now()), 20000);
+    const interval = setInterval(() => setTime(Date.now()), 5000);
   return () => {
     clearInterval(interval);
   };
