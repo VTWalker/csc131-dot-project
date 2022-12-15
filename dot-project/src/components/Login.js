@@ -32,7 +32,7 @@ function Login() {
           <div className="forget-pwd">
             <a href="#">Forgot Password?</a>
           </div>
-          <Link to="/" className="login-button">Login <i className="fas fa-lock" /></Link>
+          <Link to="/" className="login-button"><i className="fas fa-lock" /> Login </Link>
         </div>
       </div>
     </section>
