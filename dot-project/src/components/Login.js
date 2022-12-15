@@ -1,5 +1,6 @@
 import React from 'react';
 import './Login.css';
+import {Link} from 'react-router-dom';
 
 function Login() {
   return (
@@ -31,7 +32,7 @@ function Login() {
           <div className="forget-pwd">
             <a href="#">Forgot Password?</a>
           </div>
-          <button className="login-button">Login <i className="fas fa-lock" /></button>
+          <Link to="/" className="login-button"><i className="fas fa-lock" /> Login </Link>
         </div>
       </div>
     </section>

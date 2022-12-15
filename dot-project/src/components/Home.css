@@ -1,57 +1,45 @@
-
 .homepage-body {
-    margin-top: 4rem;
     display: flex;
-    margin-left: 1rem;
-  }
-  
-  
+    /*margin-left: 1rem;*/
+    background-color: #2a314c;
+    /*border-radius: 30px;*/
+    max-height: 90%;
+    
+  } 
+
   .home-header {
     font: bolder;
     display: flex;
   }
   
   .logo {
-    max-width: 100px;
-    max-height: 100px;
-    position: absolute;
-    right: 50%;
+    max-width: 200px;
+    max-height: 80px;
+    position: flex;
+    right: 80%;
     margin-right: 2rem;
   }
   
-  
   .dot-container {
-    border: 1px solid black;
     display: flex;
-    margin-top: 5px;
-    margin-bottom: 1rem;
-    padding: .5rem;
-    width: 80%;  
+    padding: .1rem;
+    width: 100%;  
     flex-direction: row;
     flex-wrap: wrap;
+    background-color: #2a314c;
   }
+
   .containerc
   {
     position: relative;
     height: 400px;
     border-bottom: 2px solid rgb(112, 171, 238);
+    
   }
   
   .homepage-body {
-    margin-top: 4rem;
+    /*margin-top: 4rem;*/
     display: flex;
-    margin-left: 1rem;
-  }
-  
-  .sample-dot2 {
-    height: 30px;
-    width: 30px;
-    background-color: green;
-    border-radius: 20px;
-    margin: 8px;
-  }
-  
-  .legend {
-    font: bold;
-    text-decoration: underline;
+    /*margin-left: 1rem;*/
+    background-color: #2a314c;
   }
