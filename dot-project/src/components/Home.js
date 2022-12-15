@@ -1,52 +1,59 @@
 import React, { Fragment, useEffect, useState } from 'react';
-import five9logo from'../images/Five9-black-logo.jpg';
-import SampleText from "./SampleText";
-import SampleDots from "./SampleDots";
 import Legend from "./Legend";
 import './Home.css';
-import { Routes, Route } from "react-router-dom";
 import axios from 'axios';
 import Agents from './Agents';
+import FrontPage from './FrontPage';
 
 function Home() {
   const [agentData, setAgentData] = useState();
+  const [time, setTime] = useState(Date.now());
 
   useEffect(() => {
     async function fetchData() {
       const temp = await axios.get('/agent')
       .then(function (response) {
         // handle success
-        console.log(response.data[0].status);
-        return response.data;
+       // console.log(response.data);
+      setAgentData(response.data);
+      //  return response.data;
       }).catch(function (error) {
         // handle error
         console.log(error);
       })
-      setAgentData(temp);
+     // setAgentData(temp);
     }
     fetchData();
-  }, [])
+
+    const interval = setInterval(() => setTime(Date.now()), 2000);
+  return () => {
+    clearInterval(interval);
+  };
+
+  }, [time])
   
 
   return (
-    <div className="homepage">
-      <h1 className="home-header">
-        <img className="logo" src={five9logo} />
-      </h1>
-      <div className="homepage-body">
-        <div className="title-graph">
-          <SampleText />
-          <div className="dot-container">
-            <SampleDots />
-            {agentData == null || agentData == undefined ? 
-            null :
-            <Agents agentData={agentData} />}
-          </div>
+    <React.Fragment>
+      <FrontPage />
+      <div className="homepage">
+        <h1 className="home-header">
+        </h1>
+        <div className="homepage-body">
+            {/* <SampleText /> */}
+            <div className="dot-container">
+              {/* <SampleDots /> */}
+              {agentData === null || agentData === undefined ? 
+              null :
+              <Agents agentData={agentData} />}
+            </div>
+            {agentData === null || agentData === undefined ? 
+              null :
+              <Legend agentData={agentData}/>}
+         
         </div>
-        <Legend />
-        
       </div>
-    </div>
+    </React.Fragment>
   )
 }
 
