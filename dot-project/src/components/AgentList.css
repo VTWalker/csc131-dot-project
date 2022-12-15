@@ -2,11 +2,11 @@
     height: 7px;
     width: 7px;
     border-radius: 50%;
-    background-color: #349976;
+    background-color: #3ba55d    ;
     display: block;
     margin: .1rem;
-  
     display: incline-block;
+    
 }
 
 .agent-dot-red {
@@ -46,10 +46,9 @@
     height: 7px;
     width: 7px;
     border-radius: 50%;
-    background-color: hsl(232, 13%, 34%);
+    background-color: #747f8d;
     display: block;
     margin: .1rem;
-   
     display: incline-block;
 }
 
@@ -84,7 +83,10 @@
     75%{
         background-color: #efc16e;
     }
+
 }
+
+
 
 div:nth-child(0){
     animation-delay:0s;
