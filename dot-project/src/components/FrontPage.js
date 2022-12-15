@@ -42,7 +42,7 @@
                 </li>
                 <li className="navbar__btn">
                   <Link to="/login" className="button">
-                    Log In 
+                    Log Off 
                   </Link>   
                 </li>
               </ul>
