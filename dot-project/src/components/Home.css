@@ -22,7 +22,6 @@
   
   .dot-container {
     display: flex;
-    margin-bottom: 100%;
     padding: .1rem;
     width: 100%;  
     flex-direction: row;
