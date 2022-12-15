@@ -4,7 +4,6 @@ import './Home.css';
 import axios from 'axios';
 import Agents from './Agents';
 import FrontPage from './FrontPage';
-import FrontPage from './FrontPage';
 
 function Home() {
   const [agentData, setAgentData] = useState();
