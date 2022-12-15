@@ -1,8 +1,39 @@
 import React from 'react';
 import './Login.css';
 import {Link} from 'react-router-dom';
+import { useState } from "react";
+
 
 function Login() {
+  const [name, setName] = useState("");
+  const [pass, setPass] = useState("");
+
+  function handleUsername(event) {
+    setName(event.target.value);
+  }
+
+  function handlePass(event){
+    setPass(event.target.value);
+  }
+
+  function onClick() {
+    if(name === '' || pass === ''){
+      alert('Please Enter Username/Password')
+    }else{
+      if(name === "Admin" && pass === "12345"){
+       
+        localStorage.setItem("isLogggedIn",'Yes');
+        localStorage.setItem("name",name);
+        window.location = '/';
+      }else{
+        alert('Wrong Username OR Password');
+      }
+      
+    }
+
+    
+  }
+  
   return (
     <div>
     <meta charSet="UTF-8" />
@@ -22,17 +53,17 @@ function Login() {
           <h1> Hi Welcome!</h1>
           <p>Login to your account</p>
           <div className="input-group">
-            <input type="text" placeholder="Username" />
+            <input type="text" id="username" onChange={handleUsername} placeholder="Username" />
             <i className="fas fa-user" />
           </div>
           <div className="input-group">
-            <input type="password" placeholder="Password" />
+            <input type="password" id="password" onChange={handlePass} placeholder="Password" />
             <i className="fas fa-key" />
           </div>
           <div className="forget-pwd">
             <a href="#">Forgot Password?</a>
           </div>
-          <Link to="/" className="login-button"><i className="fas fa-lock" /> Login </Link>
+          <button to="/" className="login-button" onClick={onClick}>Login <i className="fas fa-lock" /></button>
         </div>
       </div>
     </section>

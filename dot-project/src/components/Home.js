@@ -25,7 +25,7 @@ function Home() {
     }
     fetchData();
 
-    const interval = setInterval(() => setTime(Date.now()), 2000);
+    const interval = setInterval(() => setTime(Date.now()), 5000);
   return () => {
     clearInterval(interval);
   };
@@ -50,6 +50,7 @@ function Home() {
             {agentData === null || agentData === undefined ? 
               null :
               <Legend agentData={agentData}/>}
+         
         </div>
       </div>
     </React.Fragment>
